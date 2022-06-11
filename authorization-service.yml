@@ -3,7 +3,7 @@ server:
 spring:
   datasource:
     url: jdbc:mysql:flightbookingdb:fbsauth
-    driver-class-name: org.mysql.Driver
+    driver-class-name: org.mysql.jdbc.Driver
     username: root
     password: 
   jpa:
