@@ -5,7 +5,7 @@ spring:
     url: jdbc:mysql://localhost:3306/flightbookingdb?createDatabaseIfNotExist=true&useUnicode=true
     driver-class-name: org.mysql.cj.jdbc.Driver
     username: root
-    password: 
+    password: root
   jpa:
     database-platform: org.hibernate.dialect.MySQL8Dialect
     
