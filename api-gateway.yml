@@ -1,7 +1,5 @@
 server:
   port: 8080
-main:
-    web-application-type: reactive
 eureka:
   client:
     register-with-eureka: true
