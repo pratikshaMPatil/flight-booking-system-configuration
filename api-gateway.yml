@@ -1,7 +1,5 @@
 server:
   port: 8080
-  main:
-    web-application-type: reactive
 eureka:
   client:
     register-with-eureka: true
@@ -10,3 +8,5 @@ eureka:
       default-zone: https://localhost:8761/eureka/
   instance:
     prefer-ip-address: true
+  main:
+    web-application-type: reactive
