@@ -2,12 +2,12 @@ server:
   port: 8082
 spring:
   datasource:
-    url: jdbc:h2:fbs:fbsauth
+    url: jdbc:mysql://localhost:3306/flightbookingdb?createDatabaseIfNotExist=true&useUnicode=true
     driver-class-name: org.h2.Driver
     username: root
     password: 
   jpa:
-    database-platform: org.hibernate.dialect.H2Dialect
+    database-platform: org.hibernate.dialect.MySQL8Dialect
     
 eureka:
   client:
