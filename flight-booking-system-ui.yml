@@ -1,0 +1,10 @@
+server:
+    port: 8083
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      default-zone: https://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
