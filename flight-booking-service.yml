@@ -7,7 +7,7 @@ spring:
     username: root
   jackson:
     serialization:
-      fail-on-empty-beans: true
+      fail-on-empty-beans: false
   jpa:
     database-platform: org.hibernate.dialect.MySQL5Dialect
     hibernate:
